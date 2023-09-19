@@ -1,0 +1,51 @@
+
+
+.greeter-container{
+    background:linear-gradient(to right bottom,#EBF3FD,#ffffff);
+    height: 100vh;
+ 
+    grid-template-columns: 3fr 1fr; 
+    grid-gap: 20px; /* Add some gap between columns (adjust as needed) */
+    width: 100%;
+    display: flex;
+}
+
+.flight-search-container{
+    height:200px;
+    width:600px;
+    background-color: #ffffff;
+    border-radius:5px;
+    display: flex;
+}
+.greeter-l{
+    display: flex;
+    flex-direction: column;
+}
+.flight-content{
+    display: flex;
+    flex-direction: column;
+}
+
+// 
+
+/* TripSelector.scss */
+.trip-selector {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .radio-buttons {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  
+    input[type='radio'] {
+      margin-right: 0.3rem;
+    }
+  }
+  
+
